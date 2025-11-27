@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 3000;
 
 // Configuración
 const ELEVENLABS_API_KEY = process.env.ELEVENLABS_API_KEY || 'tu_api_key_aqui';
-const BASE_URL = process.env.BASE_URL || `http://localhost:${PORT}`;
+const BASE_URL = process.env.BASE_URL || `https://elevenlabs-proxy-production-3ede.up.railway.app	`;
 
 // Middleware
 app.use(express.json());
